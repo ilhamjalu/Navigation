@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xir2n11.remidiuts.telkomschid.navi.MainActivity">
+
+    <Button
+        android:id="@+id/navigasi1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/navigasi3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/navigasi3"
+        android:layout_marginTop="84dp"
+        android:text="Navigasi 1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/navigasi2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/navigasi1"
+        android:layout_alignStart="@+id/navigasi1"
+        android:layout_below="@+id/navigasi1"
+        android:layout_marginTop="22dp"
+        android:text="Navigasi 2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/navigasi3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/navigasi4"
+        android:layout_alignStart="@+id/navigasi4"
+        android:layout_below="@+id/navigasi2"
+        android:layout_marginTop="24dp"
+        android:text="Navigasi 3"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <Button
+        android:id="@+id/navigasi4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navigasi3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Navigasi 4"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+
+</RelativeLayout>

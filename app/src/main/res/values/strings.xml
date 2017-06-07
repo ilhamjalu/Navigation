@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Navigasi</string>
+    <string name="title_activity_navigasi1">Navigasi1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigasi2">Navigasi2Activity</string>
+    <string name="title_activity_navigasi3">Navigasi3Activity</string>
+    <string name="title_activity_navigasi4">Navigasi4Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
